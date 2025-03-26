@@ -1,0 +1,47 @@
+.moviePostersPreview {
+    display: grid;
+    height: 345px;
+    width: 200px;
+    grid-template-rows: 90% 10%;
+    background-color: var(--littleBlack);
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+    box-shadow: 5px 5px 15px black;
+}
+.moviePostersPreview:hover {
+    transform: scale(1.03);
+}
+.moviePostersPreview > div:first-child {
+    text-align: center;
+}
+.moviePostersPreview > div:last-child {
+    padding: 0 0 0 5px;
+}
+.scrollText {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.scrollText > span {
+    display: inline-block;
+    margin: 0 10px;
+    animation: scrollTitle 6s infinite linear;
+    transform: translateX(0);
+    transition: all 1s;
+}
+@keyframes scrollTitle {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200px);
+    }
+}
+.moviePostersPreview>div>img {
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}

@@ -1,0 +1,14 @@
+.beforeLoginNav {
+    text-align: right;
+}
+.afterLoginNav {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.afterLoginNav > div:last-child {
+    text-align: right;
+}
+#logoContainer > img {
+    height: 5.5rem;
+    width: auto;
+}

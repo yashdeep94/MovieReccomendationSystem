@@ -1,0 +1,11 @@
+.posterGrid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 1rem;
+    align-items: center;
+}
+.movieSectionHeading {
+    margin: 0.7rem 0 0.3rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

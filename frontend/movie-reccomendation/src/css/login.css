@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(var(--red) 50%, black);
+}
+.loginSection {
+    text-align: center;
+    margin: 15rem 0;
+}
+
+.loginSection>div>input {
+    border: 3px solid var(--littleBlack);
+    background-color: var(--darkRed);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.loginSection>div:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 85%;
+}
+
+.loginSection>div:last-child>div {
+    display: grid;
+    column-gap: 1.3rem;
+    grid-template-columns: repeat(12, auto);
+    transform: rotate(10deg) translate(0, 250px);
+    animation: 15s infinite linear scrollInfinite;
+}
+.loginSection>div:last-child>div:first-child {
+    grid-template-columns: repeat(14, auto);
+}
+
+@keyframes scrollInfinite {
+    from{
+        transform: rotate(10deg) translate(0, 250px);
+    }
+    to {
+        transform: rotate(10deg) translate(-144.5rem, 250px);
+    }
+}
+.loginSection>div:last-child>div>div>img {
+    height: 330px;
+    width: auto;
+    border: none;
+    border-radius: 0.5rem;
+}

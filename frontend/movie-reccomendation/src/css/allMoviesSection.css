@@ -1,0 +1,20 @@
+.pageNavigation {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 10px 0;
+    justify-items: center;
+    align-items: center;
+}
+#pageNumberContainer {
+    border: 2px solid var(--ExtraDarkRed);
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    background-color: var(--ExtraDarkRed);
+}
+.pageHeading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}

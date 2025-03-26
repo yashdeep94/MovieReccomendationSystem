@@ -1,0 +1,31 @@
+.authenticateSection {
+    text-align: center;
+    margin-top: 4rem;
+}
+.authenticateSection > div {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+#messageDiv {
+    height: 30px;
+}
+.authenticateSection > div > div:first-child{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.authenticateSection > div > div:last-child {
+    text-align: center;
+}
+.authenticateSection > div > div:last-child > input {
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}

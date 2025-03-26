@@ -1,0 +1,32 @@
+#svgContainer {
+    display: grid;
+    grid-template-columns: 65% auto 10%;
+    align-items: center;
+}
+#svgContainer > div >svg {
+    height: 76px;
+    width: auto;
+}
+#downArrowSvg {
+    cursor: pointer;
+}
+#downArrowSvg > div > svg {
+    height: 15px;
+    width: auto;
+}
+#downArrowSvg > div {
+    text-align: center;
+    position: relative;
+}
+#logoutBtn {
+    position: absolute;
+    height: 27px;
+    width: 80px;
+    text-align: center;
+    background-color: var(--ExtraDarkRed);
+    top: 30px;
+    right: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}

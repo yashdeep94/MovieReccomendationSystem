@@ -1,0 +1,45 @@
+:root {
+  --littleBlack: #0d0d0d;
+  --darkBrown: #260104;
+  --ExtraDarkRed: #40010d;
+  --red: #8c030e;
+  --darkRed: #8d020d;
+  --lightRed: #a7000d;
+}
+
+body {
+  padding: 0 1rem;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+
+.customButton {
+  background-color: var(--ExtraDarkRed);
+  color: white;
+  border: 1px solid transparent;
+  padding: 0.4rem;
+  width: 110px;
+  border-radius: 0.4rem;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.customButton:hover {
+  background-color: var(--darkRed);
+  border: 1px solid white;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+.customInput {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  width: 100%;
+}
